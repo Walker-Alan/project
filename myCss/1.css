@@ -1,0 +1,66 @@
+body{
+    background-image:  url(../images/tree2.png) ,url(../images/bg.gif);
+    background-position: right bottom , top left ;
+    background-repeat: no-repeat,repeat;
+    background-attachment: fixed;
+ }
+
+.bigbox{
+   
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    /* 让大盒子居中显示 */
+}
+
+.top1{
+    width: 1000px;
+    height: 59px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 23px;
+}
+
+.top1 span:hover{
+    font-size: 38px;
+    color: green;
+
+}
+
+.middle2{
+    width: 1000px;
+    height: 304px;
+   
+    font-weight: bold;
+    font-size: 20px;
+    text-indent: 39px;
+    font-family: 楷体;
+    line-height: 180%;
+    border: 2.5px dotted pink;
+    margin-bottom: 20px;
+    color: black;
+    opacity: 0.4;
+}
+.middle2:hover{
+    /* 伪类hover表示鼠标划过来时的样式 */
+    opacity: 1;
+    border: 2.5px dotted yellowgreen;
+}
+
+.bottom3{
+    width: 1000px;
+    height: 300px;
+   
+    font-weight: bold;
+    font-size: 20px;
+    text-indent: 39px;
+    line-height: 180%;
+    border: 2.5px solid goldenrod;
+    color: hotpink;
+    opacity: 0.4;
+}
+.bottom3:hover{
+    opacity: 1;
+    border: 2.5px dotted rgb(247, 121, 142);
+}
